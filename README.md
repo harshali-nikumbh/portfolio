@@ -4,7 +4,7 @@
 
 ## Live Demo
 
-🔗 [https://your-vercel-link.vercel.app](https://portfolio-sigma-eight-hf2iihifno.vercel.app/ )
+🔗 [https://my-vercel-link.vercel.app](https://portfolio-sigma-eight-hf2iihifno.vercel.app/ )
 
 ## About Me
 
