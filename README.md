@@ -4,7 +4,7 @@
 
 ## Live Demo
 
-🔗 https://your-vercel-link.vercel.app
+🔗 [https://your-vercel-link.vercel.app](https://portfolio-sigma-eight-hf2iihifno.vercel.app/ )
 
 ## About Me
 
@@ -101,7 +101,7 @@ B.Tech Electronics & Telecommunication Engineering (2023 – 2027)
 
 📧 Email: harshalinikumbh30@gmail.com
 
-🔗 LinkedIn: https://linkedin.com/in/harshali-nikumbh
+🔗 LinkedIn: [https://linkedin.com/in/harshali-nikumbh](https://www.linkedin.com/in/harshali-nikumbh-964465326/)
 
 🐙 GitHub: https://github.com/harshali-nikumbh
 
