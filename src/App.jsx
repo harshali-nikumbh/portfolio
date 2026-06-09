@@ -9,12 +9,24 @@ import {
   FaJs,
   FaGithub,
   FaLinkedin,
+  FaNodeJs,
 } from "react-icons/fa";
+
+import {
+  SiNextdotjs,
+  SiTailwindcss,
+  SiMongodb,
+  SiMysql,
+  SiRedis,
+  SiExpress,
+} from "react-icons/si";
 
 function App() {
   const [showHarwi, setShowHarwi] = useState(false);
   const [showEWaste, setShowEWaste] = useState(false);
   const [showFlappy, setShowFlappy] = useState(false);
+  const [showInterviewIQ, setShowInterviewIQ] = useState(false);
+  const [showAmazon, setShowAmazon] = useState(false);
   
   return (
     <div className="bg-slate-950 text-white">
@@ -72,6 +84,12 @@ function App() {
     2000,
     'Full Stack Learner',
     2000,
+    'AI Developer',
+2000,
+'Generative AI Engineer',
+2000,
+'Full Stack Developer',
+2000,
   ]}
   wrapper="span"
   speed={50}
@@ -123,15 +141,32 @@ and solving real-world problems through technology.
 
         <div className="bg-slate-900 p-8 rounded-3xl border border-slate-800">
           <p className="text-lg text-gray-300 leading-8">
-            I am a B.Tech Electronics & Telecommunication student at PCCOE
-            with strong programming fundamentals in Java, Python, SQL,
-            Web Development and AI. I enjoy building real-world solutions,
-            solving challenging problems and continuously learning new
-            technologies.
+           I am a B.Tech Electronics & Telecommunication student at PCCOE with strong foundations in Java, Python, Web Development, Databases, AI and Embedded Systems. I enjoy building full-stack applications, AI-powered solutions and real-world software products. My interests include Generative AI, React Development, Backend Engineering and Problem Solving.
           </p>
         </div>
       </section>
 
+<section className="max-w-5xl mx-auto px-6 py-10">
+  <div className="bg-slate-900 p-8 rounded-3xl border border-slate-800">
+    <h3 className="text-3xl font-bold text-cyan-400 mb-4">
+      Highlights
+    </h3>
+
+    <ul className="space-y-3 text-gray-300 list-disc pl-5">
+      <li>Completed a Java Programming Virtual Internship with hands-on project experience.</li>
+
+      <li>Built and deployed InterviewIQ, an AI-powered mock interview platform using React, Tailwind CSS, Vite, and Gemini AI.</li>
+
+      <li>Developed an AI-driven Mental Health Companion leveraging CrewAI, Gemini AI, FastAPI, Redis, and Next.js.</li>
+
+      <li>Designed and implemented multiple web development, AI, and embedded systems projects.</li>
+
+      <li>Strong understanding of Data Structures & Algorithms, Object-Oriented Programming, Database Management Systems, and Full-Stack Development.</li>
+
+      <li>Demonstrated problem-solving, analytical thinking, teamwork, communication, adaptability, and leadership skills through academic and technical projects.</li>
+    </ul>
+  </div>
+</section>
 
       {/* Skills */}
 <section
@@ -168,6 +203,9 @@ and solving real-world problems through technology.
   <div className="px-3 py-2 bg-cyan-500/10 border border-cyan-500 rounded-lg flex items-center gap-2">
     ⚙️ C++
   </div>
+  <div className="px-3 py-2 bg-cyan-500/10 border border-cyan-500 rounded-lg">
+  SQL
+</div>
 
 </div>
     </div>
@@ -199,12 +237,32 @@ and solving real-world problems through technology.
     React
   </div>
 
+  <div className="px-3 py-2 bg-cyan-500/10 border border-cyan-500 rounded-lg flex items-center gap-2">
+  <FaNodeJs />
+  Node.js
+</div>
+
+<div className="px-3 py-2 bg-cyan-500/10 border border-cyan-500 rounded-lg flex items-center gap-2">
+  <SiExpress />
+  Express.js
+</div>
+
+<div className="px-3 py-2 bg-cyan-500/10 border border-cyan-500 rounded-lg flex items-center gap-2">
+  <SiNextdotjs />
+  Next.js
+</div>
+
+<div className="px-3 py-2 bg-cyan-500/10 border border-cyan-500 rounded-lg flex items-center gap-2">
+  <SiTailwindcss />
+  Tailwind CSS
+</div>
+
 </div>
     </div>
 
     <div className="bg-slate-900 p-6 rounded-3xl border border-slate-800 hover:border-cyan-400 hover:scale-105 transition">
       <h3 className="text-2xl font-semibold mb-4">
-        Tools & Concepts
+        Databases, AI & Tools
       </h3>
 
       <div className="flex flex-wrap gap-3">
@@ -233,6 +291,44 @@ and solving real-world problems through technology.
     RTOS
   </span>
 
+<div className="px-3 py-2 bg-cyan-500/10 border border-cyan-500 rounded-lg flex items-center gap-2">
+  <SiMongodb />
+  MongoDB
+</div>
+
+<div className="px-3 py-2 bg-cyan-500/10 border border-cyan-500 rounded-lg flex items-center gap-2">
+  <SiRedis />
+  Redis
+</div>
+
+<div className="px-3 py-2 bg-cyan-500/10 border border-cyan-500 rounded-lg flex items-center gap-2">
+  <SiMysql />
+  MySQL
+</div>
+
+<span className="px-3 py-2 bg-cyan-500/10 border border-cyan-500 rounded-lg">
+  Gemini AI
+</span>
+
+<span className="px-3 py-2 bg-cyan-500/10 border border-cyan-500 rounded-lg">
+  Generative AI
+</span>
+
+<span className="px-3 py-2 bg-cyan-500/10 border border-cyan-500 rounded-lg">
+  CrewAI
+</span>
+
+<span className="px-3 py-2 bg-cyan-500/10 border border-cyan-500 rounded-lg">
+  Prompt Engineering
+</span>
+
+<span className="px-3 py-2 bg-cyan-500/10 border border-cyan-500 rounded-lg">
+  REST APIs
+</span>
+
+<span className="px-3 py-2 bg-cyan-500/10 border border-cyan-500 rounded-lg">
+  OOP
+</span>
 </div>
     </div>
 
@@ -312,6 +408,180 @@ and solving real-world problems through technology.
   </div>
 )}
     </div>
+
+
+<div className="bg-gradient-to-br from-slate-900 to-slate-800 p-6 rounded-3xl border border-slate-700 min-h-[450px] hover:border-cyan-400 hover:shadow-xl hover:shadow-cyan-500/20 hover:-translate-y-2 transition-all duration-300">
+
+  <h3 className="text-3xl font-bold mb-4">
+    🎯 InterviewIQ
+  </h3>
+
+  <p className="text-gray-300 mb-5 leading-7">
+    AI-powered mock interview platform built using React,
+    Tailwind CSS and Google Gemini AI. Designed to help
+    candidates practice technical interviews, answer
+    role-based questions and receive intelligent feedback.
+  </p>
+
+  <div className="flex flex-wrap gap-2 mb-5">
+
+    <span className="px-3 py-1 bg-cyan-500/10 border border-cyan-500 rounded-full text-sm">
+      React
+    </span>
+
+    <span className="px-3 py-1 bg-cyan-500/10 border border-cyan-500 rounded-full text-sm">
+      Tailwind CSS
+    </span>
+
+    <span className="px-3 py-1 bg-cyan-500/10 border border-cyan-500 rounded-full text-sm">
+      Gemini AI
+    </span>
+
+    <span className="px-3 py-1 bg-cyan-500/10 border border-cyan-500 rounded-full text-sm">
+      Vercel
+    </span>
+
+  </div>
+
+  <div className="flex gap-3 flex-wrap">
+
+  <button
+  onClick={() => setShowInterviewIQ(!showInterviewIQ)}
+  className="px-4 py-2 bg-cyan-500 text-black rounded-lg font-semibold"
+>
+  {showInterviewIQ ? "Hide Details" : "Project Details"}
+</button>
+
+  <a
+    href="https://interview-iq-nine-xi.vercel.app"
+    target="_blank"
+    rel="noreferrer"
+    className="px-4 py-2 bg-slate-700 rounded-lg font-semibold"
+  >
+    Live Demo
+  </a>
+
+  <a
+    href="https://github.com/harshali-nikumbh/interviewIQ"
+    target="_blank"
+    rel="noreferrer"
+    className="px-4 py-2 bg-slate-700 rounded-lg font-semibold"
+  >
+    GitHub
+  </a>
+
+</div>
+{showInterviewIQ && (
+  <div className="mt-5 border-t border-slate-700 pt-4 text-gray-300 max-h-40 overflow-y-auto">
+
+    <p className="mb-2">
+      • AI-powered mock interview platform.
+    </p>
+
+    <p className="mb-2">
+      • Generates role-based interview questions.
+    </p>
+
+    <p className="mb-2">
+      • Supports Frontend, Java, Python and Full Stack roles.
+    </p>
+
+    <p className="mb-2">
+      • Built using React, Tailwind CSS and Gemini AI.
+    </p>
+
+    <p>
+      • Deployed live on Vercel with GitHub integration.
+    </p>
+
+  </div>
+)}
+
+</div>
+
+
+<div className="bg-gradient-to-br from-slate-900 to-slate-800 p-6 rounded-3xl border border-slate-700 min-h-[450px] hover:border-cyan-400 hover:shadow-xl hover:shadow-cyan-500/20 hover:-translate-y-2 transition-all duration-300">
+
+  <h3 className="text-3xl font-bold mb-4">
+    🛒 Amazon Clone
+  </h3>
+
+  <p className="text-gray-300 mb-5 leading-7">
+    Responsive Amazon-inspired e-commerce website built using HTML, CSS and JavaScript.
+    Features product listings, shopping interface, modern UI design and responsive layouts.
+  </p>
+
+  <div className="flex flex-wrap gap-2 mb-5">
+
+    <span className="px-3 py-1 bg-cyan-500/10 border border-cyan-500 rounded-full text-sm">
+      HTML
+    </span>
+
+    <span className="px-3 py-1 bg-cyan-500/10 border border-cyan-500 rounded-full text-sm">
+      CSS
+    </span>
+
+    <span className="px-3 py-1 bg-cyan-500/10 border border-cyan-500 rounded-full text-sm">
+      JavaScript
+    </span>
+
+  </div>
+
+  <div className="flex gap-3 flex-wrap">
+
+  <button
+    onClick={() => setShowAmazon(!showAmazon)}
+    className="px-4 py-2 bg-cyan-500 text-black rounded-lg font-semibold"
+  >
+    {showAmazon ? "Hide Details" : "Project Details"}
+  </button>
+
+  <a
+    href="https://harshali-nikumbh.github.io/amazon-clone/"
+    target="_blank"
+    rel="noreferrer"
+    className="px-4 py-2 bg-slate-700 rounded-lg font-semibold"
+  >
+    Live Demo
+  </a>
+
+  <a
+    href="https://github.com/harshali-nikumbh/amazon-clone"
+    target="_blank"
+    rel="noreferrer"
+    className="px-4 py-2 bg-slate-700 rounded-lg font-semibold"
+  >
+    GitHub
+  </a>
+
+</div>
+
+{showAmazon && (
+  <div className="mt-5 border-t border-slate-700 pt-4 text-gray-300 max-h-40 overflow-y-auto">
+
+    <p className="mb-2">
+      • Amazon-inspired e-commerce UI clone.
+    </p>
+
+    <p className="mb-2">
+      • Built using HTML, CSS and JavaScript.
+    </p>
+
+    <p className="mb-2">
+      • Responsive design for desktop and mobile screens.
+    </p>
+
+    <p className="mb-2">
+      • Product cards, navigation bar and shopping layout.
+    </p>
+
+    <p>
+      • Improved frontend development and UI design skills.
+    </p>
+
+  </div>
+)}
+</div>
 
     {/* E-Waste */}
    <div className="bg-gradient-to-br from-slate-900 to-slate-800 p-6 rounded-3xl border border-slate-700 min-h-[450px] hover:border-cyan-400 hover:shadow-xl hover:shadow-cyan-500/20 hover:-translate-y-2 transition-all duration-300">
@@ -401,12 +671,25 @@ and solving real-world problems through technology.
   </span>
 </div>
 
-<button
-  onClick={() => setShowFlappy(!showFlappy)}
-  className="px-4 py-2 bg-cyan-500 text-black rounded-lg font-semibold"
->
-  {showFlappy ? "Hide Details" : "Project Details"}
-</button>
+<div className="flex gap-3 flex-wrap">
+
+  <button
+    onClick={() => setShowFlappy(!showFlappy)}
+    className="px-4 py-2 bg-cyan-500 text-black rounded-lg font-semibold"
+  >
+    {showFlappy ? "Hide Details" : "Project Details"}
+  </button>
+
+  <a
+    href="https://github.com/harshali-nikumbh/flappy-bird-game"
+    target="_blank"
+    rel="noreferrer"
+    className="px-4 py-2 bg-slate-700 rounded-lg font-semibold"
+  >
+    GitHub
+  </a>
+
+</div>
 
 {showFlappy && (
   <div className="mt-5 border-t border-slate-700 pt-4 text-gray-300 max-h-40 overflow-y-auto">
