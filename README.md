@@ -1,16 +1,110 @@
-# React + Vite
+# Harshali Nikumbh - Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Personal portfolio website showcasing my projects, technical skills, education, and experience.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 [https://my-vercel-link.vercel.app](https://portfolio-sigma-eight-hf2iihifno.vercel.app/ )
 
-## React Compiler
+## About Me
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+I am a B.Tech Electronics & Telecommunication Engineering student at Pimpri Chinchwad College of Engineering with a strong interest in Software Development, Full Stack Development, Artificial Intelligence, and Embedded Systems.
 
-## Expanding the ESLint configuration
+I enjoy building real-world applications, solving complex problems, and exploring technologies that create meaningful impact.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+### Frontend
+- React.js
+- Vite
+- HTML5
+- CSS3
+- JavaScript
+
+### Backend
+- Python
+- FastAPI
+- REST APIs
+
+### Database
+- MySQL
+- SQL
+- NoSQL
+
+### Tools
+- Git & GitHub
+- VS Code
+- Arduino IDE
+
+## Featured Projects
+
+### HARWI – Full Stack Multi-Agent Mental Health Companion
+
+- Developed a full-stack AI chatbot using Next.js, FastAPI, Python, and multi-agent architecture.
+- Integrated WebSockets for real-time communication.
+- Implemented sentiment analysis and context-aware responses using CrewAI, Gemini API, Redis, and Hugging Face models.
+
+**Tech Stack:** Next.js, React, Python, FastAPI, WebSockets, Redis, CrewAI, Gemini API
+
+---
+
+### E-Waste Toxicity Prediction System
+
+- Developed a real-time e-waste toxicity monitoring system using ESP32 and RTOS.
+- Implemented sensor interfacing and real-time environmental monitoring.
+- Performed hardware-software integration for data collection and analysis.
+
+**Tech Stack:** ESP32, RTOS, Embedded Systems, Sensors
+
+---
+
+### Flappy Bird Game Clone
+
+- Built a 2D arcade game using Python and Pygame.
+- Implemented collision detection, score tracking, obstacle generation, and game physics.
+
+**Tech Stack:** Python, Pygame
+
+---
+
+### Amazon Homepage Clone
+
+- Developed an Amazon-inspired landing page using HTML and CSS.
+- Implemented navigation, hero section, search bar, and product cards.
+- Practiced responsive layouts and UI replication.
+
+**Tech Stack:** HTML, CSS
+
+## Skills
+
+- Java
+- Python
+- C/C++
+- HTML, CSS, JavaScript
+- Bootstrap
+- SQL, MySQL, NoSQL
+- Data Structures & Algorithms
+- Object-Oriented Programming
+- DBMS
+- Embedded Systems
+- Git & GitHub
+
+## Education
+
+**Pimpri Chinchwad College of Engineering**  
+B.Tech Electronics & Telecommunication Engineering (2023 – 2027)
+
+- SGPA: 8.45
+- CGPA: 8.0
+
+## Contact
+
+📧 Email: harshalinikumbh30@gmail.com
+
+🔗 LinkedIn: [https://linkedin.com/in/harshali-nikumbh](https://www.linkedin.com/in/harshali-nikumbh-964465326/)
+
+🐙 GitHub: https://github.com/harshali-nikumbh
+
+---
+
+⭐ If you like my work, feel free to connect and collaborate.
