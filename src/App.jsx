@@ -168,6 +168,7 @@ and solving real-world problems through technology.
   </div>
 </section>
 
+
       {/* Skills */}
 <section
   id="skills"
