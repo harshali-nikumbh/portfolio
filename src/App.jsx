@@ -23,6 +23,7 @@ import {
 
 function App() {
   const [showHarwi, setShowHarwi] = useState(false);
+  const [showPlacePrep, setShowPlacePrep] = useState(false);
   const [showEWaste, setShowEWaste] = useState(false);
   const [showFlappy, setShowFlappy] = useState(false);
   const [showInterviewIQ, setShowInterviewIQ] = useState(false);
@@ -348,9 +349,9 @@ and solving real-world problems through technology.
   <div className="grid md:grid-cols-3 gap-8 items-start">
     {/* HARWI */}
     {/* HARWI */}
-<div className="bg-gradient-to-br from-slate-900 to-slate-800 p-6 rounded-3xl border border-slate-700 min-h-[450px] hover:border-cyan-400 hover:shadow-xl hover:shadow-cyan-500/20 hover:-translate-y-2 transition-all duration-300">
+<div className="bg-gradient-to-br from-slate-900 to-slate-800 p-6 rounded-3xl border border-slate-700 min-h-[500px] hover:border-cyan-400 hover:shadow-xl hover:shadow-cyan-500/20 hover:-translate-y-2 transition-all duration-300">
       <h3 className="text-3xl font-bold mb-4">
-  🧠 Mental Health Companion
+Mental Health Companion
 </h3>
 
 <p className="text-gray-300 mb-5 leading-7">
@@ -411,10 +412,102 @@ and solving real-world problems through technology.
     </div>
 
 
-<div className="bg-gradient-to-br from-slate-900 to-slate-800 p-6 rounded-3xl border border-slate-700 min-h-[450px] hover:border-cyan-400 hover:shadow-xl hover:shadow-cyan-500/20 hover:-translate-y-2 transition-all duration-300">
+
+<div className="bg-gradient-to-br from-slate-900 to-slate-800 p-6 rounded-3xl border border-slate-700 min-h-[500px] hover:border-cyan-400 hover:shadow-xl hover:shadow-cyan-500/20 hover:-translate-y-2 transition-all duration-300">
 
   <h3 className="text-3xl font-bold mb-4">
-    🎯 InterviewIQ
+    PlacePrep
+  </h3>
+
+  <p className="text-gray-300 mb-5 leading-7">
+    Full-stack placement tracking platform built using
+    Next.js, TypeScript and Supabase. Manage job
+    applications, interview progress, analytics and
+    recruitment timelines through a modern dashboard.
+  </p>
+
+  <div className="flex flex-wrap gap-2 mb-5">
+
+    <span className="px-3 py-1 bg-cyan-500/10 border border-cyan-500 rounded-full text-sm">
+      Next.js
+    </span>
+
+    <span className="px-3 py-1 bg-cyan-500/10 border border-cyan-500 rounded-full text-sm">
+      TypeScript
+    </span>
+
+    <span className="px-3 py-1 bg-cyan-500/10 border border-cyan-500 rounded-full text-sm">
+      Supabase
+    </span>
+
+    <span className="px-3 py-1 bg-cyan-500/10 border border-cyan-500 rounded-full text-sm">
+      PostgreSQL
+    </span>
+
+  </div>
+
+  <div className="flex gap-3 flex-wrap">
+
+    <button
+      onClick={() => setShowPlacePrep(!showPlacePrep)}
+      className="px-4 py-2 bg-cyan-500 text-black rounded-lg font-semibold"
+    >
+      {showPlacePrep ? "Hide Details" : "Project Details"}
+    </button>
+
+    <a
+      href="https://place-prep-khaki.vercel.app"
+      target="_blank"
+      rel="noreferrer"
+      className="px-4 py-2 bg-slate-700 rounded-lg font-semibold"
+    >
+      Live Demo
+    </a>
+
+    <a
+      href="https://github.com/harshali-nikumbh/PlacePrep"
+      target="_blank"
+      rel="noreferrer"
+      className="px-4 py-2 bg-slate-700 rounded-lg font-semibold"
+    >
+      GitHub
+    </a>
+
+  </div>
+
+  {showPlacePrep && (
+    <div className="mt-5 border-t border-slate-700 pt-4 text-gray-300 max-h-40 overflow-y-auto">
+
+      <p className="mb-2">
+        • Secure authentication with Email/Password and Google OAuth.
+      </p>
+
+      <p className="mb-2">
+        • CRUD operations for managing placement applications.
+      </p>
+
+      <p className="mb-2">
+        • Interactive dashboard with analytics, search and filters.
+      </p>
+
+      <p className="mb-2">
+        • Responsive UI with calendar integration and mobile navigation.
+      </p>
+
+      <p>
+        • Deployed on Vercel with GitHub CI/CD integration.
+      </p>
+
+    </div>
+  )}
+
+</div>
+
+
+<div className="bg-gradient-to-br from-slate-900 to-slate-800 p-6 rounded-3xl border border-slate-700 min-h-[500px] hover:border-cyan-400 hover:shadow-xl hover:shadow-cyan-500/20 hover:-translate-y-2 transition-all duration-300">
+
+  <h3 className="text-3xl font-bold mb-4">
+    InterviewIQ
   </h3>
 
   <p className="text-gray-300 mb-5 leading-7">
@@ -501,10 +594,10 @@ and solving real-world problems through technology.
 </div>
 
 
-<div className="bg-gradient-to-br from-slate-900 to-slate-800 p-6 rounded-3xl border border-slate-700 min-h-[450px] hover:border-cyan-400 hover:shadow-xl hover:shadow-cyan-500/20 hover:-translate-y-2 transition-all duration-300">
+<div className="bg-gradient-to-br from-slate-900 to-slate-800 p-6 rounded-3xl border border-slate-700 min-h-[500px] hover:border-cyan-400 hover:shadow-xl hover:shadow-cyan-500/20 hover:-translate-y-2 transition-all duration-300">
 
   <h3 className="text-3xl font-bold mb-4">
-    🛒 Amazon Clone
+   Amazon Clone
   </h3>
 
   <p className="text-gray-300 mb-5 leading-7">
@@ -585,9 +678,9 @@ and solving real-world problems through technology.
 </div>
 
     {/* E-Waste */}
-   <div className="bg-gradient-to-br from-slate-900 to-slate-800 p-6 rounded-3xl border border-slate-700 min-h-[450px] hover:border-cyan-400 hover:shadow-xl hover:shadow-cyan-500/20 hover:-translate-y-2 transition-all duration-300">
+   <div className="bg-gradient-to-br from-slate-900 to-slate-800 p-6 rounded-3xl border border-slate-700 min-h-[500px] hover:border-cyan-400 hover:shadow-xl hover:shadow-cyan-500/20 hover:-translate-y-2 transition-all duration-300">
      <h3 className="text-3xl font-bold mb-4">
-  ♻️ E-Waste Toxicity Prediction
+  E-Waste Toxicity Prediction
 </h3>
 
 <p className="text-gray-300 mb-5 leading-7">
@@ -647,9 +740,9 @@ and solving real-world problems through technology.
     </div>
 
     {/* Flappy Bird */}
-    <div className="bg-gradient-to-br from-slate-900 to-slate-800 p-6 rounded-3xl border border-slate-700 min-h-[450px] hover:border-cyan-400 hover:shadow-xl hover:shadow-cyan-500/20 hover:-translate-y-2 transition-all duration-300">
+    <div className="bg-gradient-to-br from-slate-900 to-slate-800 p-6 rounded-3xl border border-slate-700 min-h-[500px] hover:border-cyan-400 hover:shadow-xl hover:shadow-cyan-500/20 hover:-translate-y-2 transition-all duration-300">
       <h3 className="text-3xl font-bold mb-4">
-  🎮 Flappy Bird Clone
+  Flappy Bird Clone
 </h3>
 
 <p className="text-gray-300 mb-5 leading-7">
